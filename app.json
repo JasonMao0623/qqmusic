@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/musiclist/musiclist",
+    "pages/play/lrc/lrc",
+    "pages/play/play"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#C8848E"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "tabBar": {
+    "backgroundColor": "#C8848E",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/musiclist/musiclist",
+        "text": "云音乐",
+        "iconPath": "images/online.png",
+        "selectedIconPath": "images/online-s.png"
+      },
+      {
+        "pagePath": "pages/play/play",
+        "text": "正在播放",
+        "iconPath": "images/playing.png",
+        "selectedIconPath": "images/playing-s.png"
+      }
+    ]
+  },
+  "debug": true
+}

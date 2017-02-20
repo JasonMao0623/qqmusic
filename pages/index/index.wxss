@@ -1,0 +1,21 @@
+/* pages/index/index.wxss */
+.index-container{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+}
+.index-container image{
+    margin:170rpx auto;
+    width:450rpx;
+    height:410rpx;
+}
+.index-container button{
+    width:260rpx;
+    height:80rpx;
+    background:#C8848E;
+    color:white;
+    font-size:25rpx;
+    border:#C8848E;
+    line-height:80rpx;
+    margin-top:100rpx;
+}

@@ -1,0 +1,15 @@
+<view clsaa="musiclist-container">
+  <view class="category">
+    <view class="line2"><view catchtap="onHotTap">热歌</view>
+    <view catchtap="onNeidiTap">内地</view><view catchtap="onHkTap">港台</view><view catchtap="onRockTap">摇滚</view><view catchtap="onSaleTap">销量</view></view>
+    <view class="line1"><view catchtap="onOumeiTap">欧美</view><view catchtap="onHanguoTap">韩国</view><view catchtap="onMyTap">民谣</view><view catchtap="onRibenTap">日本</view></view>
+  </view>
+  <scroll-view class="music-list" scroll-y="true">
+    <block wx:for="{{songList}}" wx:item="item">
+      <view class="music-ctrl" data-src="{{item.src}}" data-name="{{item.songFullName}}" data-img="{{item.songImg}}" data-songid="{{item.songId}}" data-singer="{{item.singer}}" data-second="{{item.second}}" catchtap="onSongTap">
+        <text class="name">{{item.song}}</text>
+        <text class="singer">{{item.singer}}</text>
+      </view>
+    </block>
+  </scroll-view>
+</view>

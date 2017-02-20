@@ -1,0 +1,21 @@
+image{
+    width:100%;
+    height:1254rpx;
+    -webkit-filter:blur(20px)
+}
+view{
+    width:80%;
+    height: 1054rpx;
+    overflow:auto;
+    position:absolute;
+    top: 80rpx;
+    left:75rpx;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+}
+text{
+    margin-bottom:1rpx;
+    color:white;
+    font-weight:100;
+}

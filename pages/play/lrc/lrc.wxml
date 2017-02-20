@@ -1,0 +1,9 @@
+<!--<view class="lrc-container">
+    <text>{{lrc}}</text>
+</view>-->
+<image src="{{imgSrc}}"></image>
+<view>
+    <block wx:for="{{lrc}}" wx:item="item">
+        <text>{{item}}</text>
+    </block>
+</view>

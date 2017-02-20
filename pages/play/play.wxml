@@ -1,0 +1,18 @@
+<view class="play-container">
+  <view class="img-container">
+    <text class="lrc" catchtap="onLrcTap">歌词</text>
+    <view class="img" >
+      <image src="{{songImg}}" catchtap="onPlayTap" animation="{{animationData}}" class="img-animation-{{isPlaying}}"></image>
+    </view>
+    <view class="music-ctrl" catchtap="onPlayTap">
+      <image src="{{isPlaying?'/images/pause.png':'/images/play.png'}}"></image>
+    </view>
+    <text class="name">{{song}}</text>
+    <text class="singer">{{singer}}</text>
+    <view class="progress">
+    <text class="start-time">{{currentTime}}</text>
+    <progress color="white"  stroke-width="3" percent="{{percent}}"  color="#C8848E"/>
+    <text class="end-time">{{totalTime}}</text>
+    </view>
+  </view>
+</view>

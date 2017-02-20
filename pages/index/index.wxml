@@ -1,0 +1,4 @@
+<view class="index-container">
+    <image src="/images/logo.png"></image>
+    <button size="mini" catchtap="onBtnTap">开启进入音乐之旅</button>
+</view>

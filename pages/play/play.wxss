@@ -1,0 +1,116 @@
+audio {
+  display: none;
+}
+
+.play-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.lrc{
+  color: white;
+  width:70rpx;
+  font-size:25rpx;
+  height:35rpx;
+  border:white solid 1rpx;
+  border-radius:8rpx;
+  line-height:35rpx;
+  position: absolute;
+  right:50rpx;
+top: 100rpx;
+}
+.img-container {
+  width: 100%;
+  height: 1138rpx;
+  background: -webkit-radial-gradient(center, #443844, #954a5e, #443844);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-overflow: hide;
+}
+
+.img-container image {
+  width: 480rpx;
+  height: 480rpx;
+  border-radius: 480rpx;
+}
+
+.img-animation-true{
+  animation: spin 25s linear infinite;
+}
+
+.music-ctrl {
+  position: absolute;
+  top: 200rpx;
+  left: 325rpx;
+}
+
+.music-ctrl image {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.name {
+  font-size: 60rpx;
+  color: white;
+  margin-top: 110rpx;
+  white-space: nowrap;
+}
+
+.singer {
+  font-size: 32rpx;
+  color: white;
+  margin-top: 30rpx;
+}
+
+.img-container image {
+  margin-top: 150rpx;
+}
+
+.progress {
+  display: flex;
+  flex-direction: row;
+  font-size: 24rpx;
+  color: white;
+  position: relative;
+}
+
+.progress text {
+  position: absolute;
+  top: 110rpx;
+}
+
+.start-time {
+  left: 50rpx;
+}
+
+.end-time {
+  right: 50rpx;
+}
+
+/*.ctrl{
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+}
+.ctrl image{
+    width:150rpx;
+    height: 150rpx;
+    margin-top:12rpx;
+    margin-left:150rpx;
+}*/
+
+progress {
+  width: 650rpx;
+  margin: 100rpx auto;
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,78 @@
+/* pages/musiclist/musiclist.wxss */
+
+page {
+  color: white;
+  font-size: 32rpx;
+  font-weight: 200;
+  height: 1334rpx;
+  overflow: auto;
+}
+
+.musiclist-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.category {
+  width: 100%;
+  height: 300rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.line2 {
+  margin-top: 20rpx;
+}
+
+.line1, .line2 {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.line1 view, .line2 view {
+  border: 1px solid;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  margin: 20rpx 5rpx;
+  border-radius: 10rpx;
+  background: #954a5e;
+  opacity: .7;
+}
+
+.line1 view {
+  width: 176rpx;
+}
+
+.line2 view {
+  width: 140rpx;
+}
+
+.music-list {
+  width: 100%;
+  height: 1204rpx;
+  background: -webkit-linear-gradient(right top, #954a5e, #443844);
+}
+
+/*.music-ctrl:nth-child(2n+1) {
+  opacity: 0.4;
+}*/
+
+.music-ctrl {
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  line-height: 80rpx;
+}
+
+.name {
+  margin-left: 50rpx;
+}
+
+.singer {
+  position: absolute;
+  right: 40rpx;
+}
